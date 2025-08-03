@@ -1,35 +1,5 @@
-[**第三方 DockerHub 镜像服务列表**](https://github.com/cmliu/CF-Workers-docker.io?tab=readme-ov-file#%EF%B8%8F-%E7%AC%AC%E4%B8%89%E6%96%B9-dockerhub-%E9%95%9C%E5%83%8F%E6%9C%8D%E5%8A%A1)
+新建一个 Workers，选 Hello World 项目，创建完成后点右上角的按钮进入编辑代码，填入以下代
 
-![CF-Workers-docker.io](./img.png)
-
-# 🐳 CF-Workers-docker.io：Docker仓库镜像代理工具
-
-这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。
-
-> [!CAUTION]
-> **docker.fxxk.dedyn.io 已被GFW污染，需自行部署使用。**
-
-> [!WARNING]
-> 根据 [Cloudflare 协议](https://www.cloudflare.com/zh-cn/terms/) 中，2.2.1 第 (j) use the Services to provide a virtual private network or other similar proxy services.
->
-> 使用本服务可能存在被 Cloudflare 封号的潜在风险，请自行斟酌使用风险。
->
-> 如果你选择了“根据主机名选择对应的上游地址”方式部署，你可能会:
-> 
-> 被 Netcraft 扫描到，收到警告邮件
->
-> 被 Netcraft 同步到 Google Safe Browsing 标记为钓鱼网站
->
-> 被 Netcraft 投诉到 Cloudflare 标记为钓鱼网站, 无法正常 pull 镜像
->
-> 收到律师函
-
-## 🚀 部署方式
-
-- **Workers** 部署：复制 [_worker.js](https://github.com/cmliu/CF-Workers-docker.io/blob/main/_worker.js) 代码，`保存并部署`即可
-- **Pages** 部署：`Fork` 后 `连接GitHub` 一键部署即可
-
-## ⚙️ 如何使用？ [视频教程](https://www.youtube.com/watch?v=l2jwq9CagNQ)
 
 例如您的Workers项目域名为：`docker.fxxk.dedyn.io`；
 
